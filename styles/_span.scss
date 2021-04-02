@@ -1,0 +1,34 @@
+.span{
+    padding: 5px;
+    color: whitesmoke;
+
+    &--bg1{
+        background-color: $principal-one;
+
+    }
+
+    &--bg2{
+        background-color: $principal-two;
+
+    }
+
+    &--bg3{
+        background-color: $principal-three;
+
+    }
+
+    &--bg4{
+        background-color: $secundary-one;
+
+    }
+
+    &--bg5{
+        background-color: $secundary-two;
+
+    }
+
+    &--bg6{
+        background-color: $secundary-three;
+        
+    }
+}

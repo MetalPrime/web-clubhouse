@@ -26,7 +26,26 @@
 }
 
 .header__logo {
-  width: 70%;
+  width: 60%;
+}
+
+.object {
+  z-index: 0;
+}
+
+.object__rect {
+  position: absolute;
+  width: 1035.95px;
+  height: 389.2px;
+  left: -100px;
+  top: -210.73px;
+  background-color: #2e2b67;
+  border-radius: 20px;
+  -webkit-transform: rotate(-4deg);
+          transform: rotate(-4deg);
+  z-index: 0;
+  -webkit-filter: drop-shadow(0px 4px 20px rgba(46, 43, 103, 0.2));
+          filter: drop-shadow(0px 4px 20px rgba(46, 43, 103, 0.2));
 }
 
 .nav {
@@ -34,6 +53,8 @@
   height: 100%;
   color: whitesmoke;
   z-index: 2;
+  position: relative;
+  margin-right: 10vw;
 }
 
 .nav__list {
@@ -55,6 +76,7 @@
       -ms-flex-align: center;
           align-items: center;
   z-index: 2;
+  padding-right: 10vw;
 }
 
 .nav__listItems a {
@@ -63,18 +85,32 @@
   z-index: 2;
 }
 
-.object__rect {
-  position: absolute;
-  width: 1035.95px;
-  height: 389.2px;
-  left: -100px;
-  top: -220.73px;
-  background-color: rgba(46, 43, 103, 0.9);
-  border-radius: 20px;
-  -webkit-transform: rotate(-5deg);
-          transform: rotate(-5deg);
-  z-index: 0;
-  -webkit-filter: drop-shadow(0px 4px 20px rgba(46, 43, 103, 0.2));
-          filter: drop-shadow(0px 4px 20px rgba(46, 43, 103, 0.2));
+.span {
+  padding: 5px;
+  color: whitesmoke;
+}
+
+.span--bg1 {
+  background-color: #2E2B67;
+}
+
+.span--bg2 {
+  background-color: #685AD1;
+}
+
+.span--bg3 {
+  background-color: #9C92DB;
+}
+
+.span--bg4 {
+  background-color: #ADE3FF;
+}
+
+.span--bg5 {
+  background-color: #FFCE53;
+}
+
+.span--bg6 {
+  background-color: #FBD0D5;
 }
 /*# sourceMappingURL=index.css.map */
