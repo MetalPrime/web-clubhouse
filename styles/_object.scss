@@ -1,0 +1,17 @@
+.object {
+    &__rect {
+        position: absolute;
+        width: 1035.95px;
+        height: 389.2px;
+        left: -100px;
+        top: -220.73px;
+        background-color: rgba(46, 43, 103,0.9);
+        border-radius: 20px;
+        transform: rotate(-5deg);
+        //transform-origin: 0 0;	
+        z-index: 0;
+
+
+        filter: drop-shadow(0px 4px 20px rgba(46, 43, 103, 0.2));
+    }
+}

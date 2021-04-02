@@ -1,6 +1,39 @@
 @import url(c:\Users\IZQUIERDO GARZON\Desktop\Proyectos Web\web-clubhouse\src\fonts\style.css);
+* {
+  font-family: Gordita Regular;
+}
+
+.margin {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.header {
+  width: 100%;
+  overflow: hidden;
+}
+
+.header__article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.header__section {
+  position: relative;
+  width: 50%;
+}
+
+.header__logo {
+  width: 70%;
+}
+
 .nav {
   width: 100%;
+  height: 100%;
+  color: whitesmoke;
+  z-index: 2;
 }
 
 .nav__list {
@@ -16,9 +49,32 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  text-align: center;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 2;
 }
 
 .nav__listItems a {
   text-decoration: none;
+  color: whitesmoke;
+  z-index: 2;
+}
+
+.object__rect {
+  position: absolute;
+  width: 1035.95px;
+  height: 389.2px;
+  left: -100px;
+  top: -220.73px;
+  background-color: rgba(46, 43, 103, 0.9);
+  border-radius: 20px;
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
+  z-index: 0;
+  -webkit-filter: drop-shadow(0px 4px 20px rgba(46, 43, 103, 0.2));
+          filter: drop-shadow(0px 4px 20px rgba(46, 43, 103, 0.2));
 }
 /*# sourceMappingURL=index.css.map */
