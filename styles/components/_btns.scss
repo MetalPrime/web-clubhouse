@@ -1,0 +1,36 @@
+.btn {
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    height: 46px;
+    font-size: 1.4rem;
+
+    border-radius: 10px;
+    border: none;
+    margin: 2rem auto;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out, box-shadow .3s ease-in-out;
+ 
+
+
+    color: $white;
+    background-color: darken(white, $amount: 20%);
+
+
+    &--outline {
+        background-color: $white;
+        color: $principal_one;
+        border: 3px solid $principal_one;
+
+        &:hover{
+            background-color: $principal_one;
+            color: $white;
+            border: 3px solid $white;
+
+        }
+    }
+
+
+
+
+}
