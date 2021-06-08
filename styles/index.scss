@@ -1,0 +1,20 @@
+@import './../src/fonts/style.css';
+
+@import './_variables.scss';
+
+* {
+    font-family: Gordita Regular;
+}
+
+@import './_margin.scss';
+
+@import './_header.scss';
+
+
+@import './_object.scss';
+
+@import './_nav.scss';
+
+@import './_span.scss';
+
+@import './_field.scss';
