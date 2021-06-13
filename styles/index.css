@@ -159,4 +159,34 @@
   -webkit-box-shadow: 0px 4px 50px rgba(255, 206, 83, 0.5);
           box-shadow: 0px 4px 50px rgba(255, 206, 83, 0.5);
 }
+
+.btn {
+  display: block;
+  width: 100%;
+  max-width: 250px;
+  height: 46px;
+  font-size: 1.4rem;
+  border-radius: 10px;
+  border: none;
+  margin: 2rem auto;
+  cursor: pointer;
+  -webkit-transition: background-color .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+  transition: background-color .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+  transition: background-color .3s ease-in-out, box-shadow .3s ease-in-out;
+  transition: background-color .3s ease-in-out, box-shadow .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+  color: #ffffff;
+  background-color: #cccccc;
+}
+
+.btn--outline {
+  background-color: #ffffff;
+  color: #2E2B67;
+  border: 3px solid #2E2B67;
+}
+
+.btn--outline:hover {
+  background-color: #2E2B67;
+  color: #ffffff;
+  border: 3px solid #2E2B67;
+}
 /*# sourceMappingURL=index.css.map */
