@@ -21,42 +21,5 @@
 
     }
 
-    &__img{
-        width: 50px;
-        height: 50px;
-        padding: 30px; 
-        border-radius: 50%;   
-        display: flex;
-        justify-content:center;
-        align-items: center;  
-        
-        >img{
-            width: 95%;
-        }
-
-        &--1{
-            background-color: $principal-one;
-            box-shadow: 0px 4px 50px rgba($principal-one, 0.5);
-        }
-
-        &--2{
-            background-color: $principal-two;
-            box-shadow: 0px 4px 50px rgba($principal-two, 0.5);
-        }
-
-        &--3{
-            background-color: $principal-three;
-            box-shadow: 0px 4px 50px rgba($principal-three, 0.5);
-        }
-
-        &--4{
-            background-color: $secundary-one;
-            box-shadow: 0px 4px 50px rgba($secundary-one, 0.5);
-        }
-
-        &--5{
-            background-color: $secundary-two;
-            box-shadow: 0px 4px 50px rgba($secundary-two, 0.5);
-        }
-    }
+    
 }
