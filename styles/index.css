@@ -1,4 +1,9 @@
 @import url(c:\Users\IZQUIERDO GARZON\Desktop\Proyectos Web\web-clubhouse\src\fonts\style.css);
+.position--absolute {
+  position: absolute;
+  top: 0;
+}
+
 .figure {
   width: 50px;
   height: 50px;
@@ -79,6 +84,25 @@
   border: 3px solid #2E2B67;
 }
 
+.landing {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+}
+
+.landing__gradiant {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.landing__gradiant > div {
+  width: 100%;
+  height: 100%;
+  background-image: url("../src/img/index/background_img1.png");
+}
+
 * {
   font-family: Gordita Regular;
 }
@@ -91,6 +115,7 @@
 .header {
   width: 100%;
   overflow: hidden;
+  position: relative;
 }
 
 .header__article {

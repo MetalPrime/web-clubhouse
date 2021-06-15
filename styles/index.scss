@@ -1,6 +1,12 @@
 @import './../src/fonts/style.css';
 
-@import './_variables.scss';
+@import './utils/colors';
+
+@import 'components/position';
+@import './components/figure';
+@import './components/btns';
+
+@import './layout.scss/landing';
 
 * {
     font-family: Gordita Regular;
@@ -19,5 +25,3 @@
 
 @import './_field.scss';
 
-@import './utils/colors';
-@import './components/btns';
