@@ -94,13 +94,29 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
 }
 
-.landing__gradiant > div {
+.landing__gradiant :nth-child(1) {
+  position: absolute;
   width: 100%;
   height: 100%;
   background-image: url("../src/img/index/background_img1.png");
+}
+
+.landing__gradiant :nth-child(2) {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.landing__gradiant :nth-child(3) {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  bottom: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(250, 250, 250, 0)), to(#FAFAFA));
+  background: linear-gradient(180deg, rgba(250, 250, 250, 0) 0%, #FAFAFA 100%);
 }
 
 * {
