@@ -13,6 +13,21 @@
         position: relative;
         width: 50%;
 
+        > h1{
+            
+            color: $white;
+            font-size: 40px;
+            line-height: 80px;
+
+        }
+
+        &--1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 15% 0 7%;
+           
+        }
     }
 
     &__logo{

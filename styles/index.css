@@ -87,7 +87,7 @@
 .landing {
   position: relative;
   width: 100%;
-  height: 80vh;
+  height: 90vh;
 }
 
 .landing__gradiant {
@@ -144,6 +144,25 @@
 .header__section {
   position: relative;
   width: 50%;
+}
+
+.header__section > h1 {
+  color: #ffffff;
+  font-size: 40px;
+  line-height: 80px;
+}
+
+.header__section--1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 15% 0 7%;
 }
 
 .header__logo {
