@@ -14,11 +14,13 @@
         width: 50%;
 
         > h1{
-            
+            font-family: 'Gordita Medium';
             color: $white;
             font-size: 40px;
             line-height: 80px;
-
+            span{
+                font-family: 'Gordita Medium';
+            }
         }
 
         &--1{
