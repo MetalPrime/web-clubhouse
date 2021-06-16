@@ -1,0 +1,37 @@
+.footer{
+ position: relative;
+ overflow: hidden;
+ height: 40vh;
+
+ color: $white;
+ 
+ &__article{
+     padding-top: 5%;
+     height: 100%;
+     z-index: 2;
+     position: inherit;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     
+     section {
+
+         div{
+            margin-bottom: 10px;
+         }
+         
+     }
+ }
+
+ &__follow{
+     display: flex;
+     p{
+         margin-right: 3px;
+     }
+
+     img {
+         margin-left: 5px;
+         margin-right: 5px;
+     }
+ }
+}

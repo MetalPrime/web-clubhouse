@@ -4,11 +4,12 @@
 @import './utils/reset';
 
 @import './components/columns';
-@import 'components/position';
+@import './components/position';
 @import './components/figure';
 @import './components/btns';
 
 @import './layout.scss/landing';
+@import './layout.scss/footer';
 
 * {
     font-family: Gordita Regular;
