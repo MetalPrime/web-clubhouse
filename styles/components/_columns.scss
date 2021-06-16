@@ -1,0 +1,15 @@
+.columns{
+    width: 100%;
+
+    &__two{
+        width:50%;
+    }
+
+    &__three{
+        width: 33%;
+    }
+
+    &__four{
+        width: 25%;
+    }
+}
