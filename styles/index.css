@@ -241,6 +241,25 @@ input[type=button] {
   zoom: 1;
 }
 
+.columns {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.columns__two {
+  width: 50%;
+}
+
+.columns__three {
+  width: 33%;
+}
+
+.columns__four {
+  width: 25%;
+}
+
 .position--absolute {
   position: absolute;
   top: 0;
