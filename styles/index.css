@@ -242,22 +242,54 @@ input[type=button] {
 }
 
 .columns {
+  height: 100vh;
+}
+
+.columns__two {
+  height: 50vh;
+}
+
+.columns__three {
+  height: 33vh;
+}
+
+.columns__four {
+  height: 25vh;
+}
+
+.row {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.columns__two {
+.row__two {
   width: 50%;
 }
 
-.columns__three {
+.row__three {
   width: 33%;
 }
 
-.columns__four {
+.row__four {
   width: 25%;
+}
+
+.row__4th {
+  width: 80%;
+}
+
+.row__3rd {
+  width: 60%;
+}
+
+.row__2nd {
+  width: 40%;
+}
+
+.row__1st {
+  width: 20%;
 }
 
 .position--absolute {

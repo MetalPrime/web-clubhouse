@@ -1,0 +1,32 @@
+.row{
+    width: 100%;
+    display: flex;
+
+    &__two{
+        width:50%;
+    }
+
+    &__three{
+        width: 33%;
+    }
+
+    &__four{
+        width: 25%;
+    }
+
+    &__4th{
+        width: 80%;
+    }
+
+    &__3rd{
+        width: 60%;
+    }
+
+    &__2nd{
+        width: 40%;
+    }
+
+    &__1st{
+        width: 20%;
+    }
+}
