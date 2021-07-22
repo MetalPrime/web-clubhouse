@@ -1,0 +1,8 @@
+.justify{
+    display: flex;
+    flex-direction: column;
+
+    &__center{
+        justify-content: center;
+    }
+}

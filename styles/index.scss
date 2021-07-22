@@ -1,10 +1,12 @@
-@import './../src/fonts/style.css';
+@import './../src/fonts/style';
 
 @import './utils/colors';
 @import './utils/reset';
 
 @import './components/columns';
 @import './components/row';
+@import './components/justify';
+@import './components/title';
 @import './components/position';
 @import './components/figure';
 @import './components/btns';
