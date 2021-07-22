@@ -3,7 +3,7 @@
   font-family: 'Gordita Regular';
   font-style: normal;
   font-weight: normal;
-  src: local("Gordita Regular"), url("./Gordita Regular.woff") format("woff");
+  src: local("Gordita Regular"), url("./GorditaRegular.woff") format("woff");
 }
 
 @font-face {
@@ -578,7 +578,7 @@ input[type=button] {
 }
 
 * {
-  font-family: Gordita Regular;
+  font-family: 'Gordita Regular';
 }
 
 .margin {
