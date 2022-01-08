@@ -3,7 +3,7 @@
   font-family: 'Gordita Regular';
   font-style: normal;
   font-weight: normal;
-  src: local("Gordita Regular"), url("./src/fonts/GorditaRegular.woff") format("woff");
+  src: local("Gordita Regular"), url("../src/fonts/GorditaRegular.woff") format("woff");
 }
 
 @font-face {
@@ -500,6 +500,80 @@ input[type=button] {
   border: 3px solid #2E2B67;
 }
 
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card {
+  background-color: #685AD1;
+  color: #ffffff;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5%;
+  width: 100%;
+  margin: 0 10px;
+}
+
+.card--1 {
+  background-color: #ADE3FF;
+  -webkit-box-shadow: 0px 4px 50px rgba(173, 227, 255, 0.5);
+          box-shadow: 0px 4px 50px rgba(173, 227, 255, 0.5);
+}
+
+.card--2 {
+  background-color: #FFCE53;
+  -webkit-box-shadow: 0px 4px 50px rgba(255, 206, 83, 0.5);
+          box-shadow: 0px 4px 50px rgba(255, 206, 83, 0.5);
+}
+
+.card--3 {
+  background-color: #FBD0D5;
+  -webkit-box-shadow: 0px 4px 50px rgba(251, 208, 213, 0.5);
+          box-shadow: 0px 4px 50px rgba(251, 208, 213, 0.5);
+}
+
+.card--4 {
+  background-color: #9C92DB;
+  -webkit-box-shadow: 0px 4px 50px rgba(156, 146, 219, 0.5);
+          box-shadow: 0px 4px 50px rgba(156, 146, 219, 0.5);
+}
+
+.card--view1 {
+  width: 35%;
+  height: 30%;
+}
+
+.card--view2 {
+  width: 27.5%;
+  height: 45%;
+}
+
+.card--view3 {
+  width: 57.5%;
+  height: 30%;
+}
+
+.card--view4 {
+  width: 35%;
+  height: 45%;
+}
+
 .landing {
   position: relative;
   width: 100%;
@@ -726,6 +800,11 @@ input[type=button] {
 
 .span--bg6 {
   background-color: #FBD0D5;
+}
+
+.field {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .field__title {

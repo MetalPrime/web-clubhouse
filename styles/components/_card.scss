@@ -1,0 +1,58 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.card{
+    background-color: $principal-two;
+    color: $white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding: 5%;
+    width: 100%;
+    margin: 0 10px;
+
+    &--1{
+        background-color: $secundary-one;
+        box-shadow: 0px 4px 50px rgba($secundary-one, 0.5);
+    }
+
+    &--2{
+        background-color: $secundary-two;
+        box-shadow: 0px 4px 50px rgba($secundary-two, 0.5);
+
+    }
+
+    &--3{
+        background-color: $secundary-three;
+        box-shadow: 0px 4px 50px rgba($secundary-three, 0.5);
+
+    }
+
+    &--4{
+        background-color: $principal-three;
+        box-shadow: 0px 4px 50px rgba($principal-three, 0.5);
+    }
+
+    &--view1{
+        width: 35%;
+        height: 30%;
+    }
+
+    &--view2{
+        width: 27.5%;
+        height: 45%;
+    }
+
+    &--view3{
+        width: 57.5%;
+        height: 30%;
+    }
+
+    &--view4{
+        width: 35%;
+        height: 45%;
+    }
+}
