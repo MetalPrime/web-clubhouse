@@ -1,32 +1,47 @@
 .row{
     width: 100%;
     display: flex;
+    position: relative;
 
     &__two{
         width:50%;
+        position: relative;
+
     }
 
     &__three{
         width: 33%;
+        position: relative;
+
     }
 
     &__four{
         width: 25%;
+        position: relative;
+
     }
 
     &__4th{
         width: 80%;
+        position: relative;
+
     }
 
     &__3rd{
         width: 60%;
+        position: relative;
+
     }
 
     &__2nd{
         width: 40%;
+        position: relative;
+
     }
 
     &__1st{
         width: 20%;
+        position: relative;
+
     }
 }

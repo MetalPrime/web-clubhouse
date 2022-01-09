@@ -360,34 +360,42 @@ input[type=button] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
 }
 
 .row__two {
   width: 50%;
+  position: relative;
 }
 
 .row__three {
   width: 33%;
+  position: relative;
 }
 
 .row__four {
   width: 25%;
+  position: relative;
 }
 
 .row__4th {
   width: 80%;
+  position: relative;
 }
 
 .row__3rd {
   width: 60%;
+  position: relative;
 }
 
 .row__2nd {
   width: 40%;
+  position: relative;
 }
 
 .row__1st {
   width: 20%;
+  position: relative;
 }
 
 .justify {
@@ -404,6 +412,8 @@ input[type=button] {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 .title {
@@ -572,6 +582,49 @@ input[type=button] {
 .card--view4 {
   width: 35%;
   height: 45%;
+}
+
+.item {
+  position: absolute;
+}
+
+.item_1 {
+  right: 0;
+  top: 60px;
+}
+
+.item_middle-down {
+  bottom: 0;
+  left: 40%;
+}
+
+.item_middle-down-rotate {
+  bottom: 100px;
+  left: 40%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.item_left-down {
+  left: 0;
+  bottom: -100px;
+}
+
+.item_left-down-outside-rotate {
+  left: -175px;
+  bottom: 100px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.item_left-middle {
+  left: 0;
+  top: 20%;
+}
+
+.item_right-middle {
+  right: 0;
+  top: 20%;
 }
 
 .landing {
@@ -805,6 +858,7 @@ input[type=button] {
 .field {
   margin-top: 50px;
   margin-bottom: 50px;
+  position: relative;
 }
 
 .field__title {

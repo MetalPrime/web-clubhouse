@@ -1,0 +1,40 @@
+.item{
+    position: absolute;
+
+    &_1{
+        right: 0;
+        top: 60px;
+    }
+
+    &_middle-down{
+        bottom: 0;
+        left: 40%;
+    }
+
+    &_middle-down-rotate{
+        bottom: 100px;
+        left: 40%;
+        transform: rotate(90deg);
+    }
+
+    &_left-down{
+        left: 0;
+        bottom: -100px;
+    }
+
+    &_left-down-outside-rotate{
+        left: -175px;
+        bottom: 100px;
+        transform: rotate(90deg);
+    }
+
+    &_left-middle{
+        left: 0;
+        top: 20%;
+    }
+
+    &_right-middle{
+        right: 0;
+        top: 20%;
+    }
+}
