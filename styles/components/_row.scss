@@ -6,7 +6,9 @@
     &__two{
         width:50%;
         position: relative;
-
+        display: flex;
+        justify-content:center;
+        align-items: center;
     }
 
     &__three{
